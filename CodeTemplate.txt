@@ -2,26 +2,26 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//CHANGE ME: Add your name
+//Hatsune Miku: Project Diva Future Tone
+//Jennifer Williams
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (button X is pressed in time with incoming X note) {
+    //register note as "good" and add 1 to note combo
 } else {
-    //Add event below
+    //register note as "miss" and end current note combo
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (note combo amount is equal to 288) {
+    //show "PERFECT" banner and effects on screen, end game and direct to results
 } else {
-    //Add event below
+    //end game and direct to results
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (score does not reach 150000 when the last note is registered) {
+    //show "FAILED..." banner on screen, end game and direct to results
 } else {
-    //Add event below
+    //end game and direct to results
 }
 
 
